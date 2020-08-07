@@ -1,0 +1,674 @@
+/*-----------------------------------------------------*/
+/* 기본 설정                                           */
+/*-----------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+}
+
+
+/*-----------------------------------------------------*/
+/* 검색 바                                             */
+/*-----------------------------------------------------*/
+
+.searchbar-box{
+    width: 100%;
+    height: 230px;
+}
+
+.searchbar-box2{
+    display: none;
+}
+
+
+.whale{
+    width: 100%;
+    height: 40px;
+    background-color: #3987ff;
+}
+
+.whale img {
+    margin-left: 19%;
+}
+
+.green-bar {
+    width : 90%;
+    height: 60px;
+    border: 2px solid #04cf5c;
+    margin-top: 45px;
+}
+
+.green-bar input[type=text]{
+    height: 100%;
+    width: 75%;
+    border: none;
+}
+
+.green-bar a{
+    height: 100%;
+}
+
+.key {
+    color: rgb(133, 131, 131);
+    font-size: 20px;
+    padding: 15px 0px;
+}
+
+.sort{
+    color: #04cf5c;
+    font-size: 20px;
+    padding: 15px 0px;
+    margin: 0px 0px 0px 15px;
+    
+}
+
+.search-img{
+    margin-left: 20%;
+}
+
+.btn{
+    float: right;
+    border: none;
+    height: 100%;
+}
+
+
+/*-----------------------------------------------------*/
+/* 서비스 바                                           */
+/*----------------------------------------------------*/
+
+.service-bar{
+    width: 100%;
+    height: 160px;
+    float: right;
+    font-size: 7px;
+    margin: 0px;
+}
+
+.service-bar li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.start{
+    margin-top: 8px;
+}
+
+.start a{
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 3px 2px #cccbcb;
+    padding: 0px 6px 3px 5px;
+    margin-left: 2px;
+}
+
+.start-span{
+    margin-left: 5px;
+    color: #cccbcb;
+}
+
+.jrnaver a:hover, .jrnaver a:active {
+    background-color: #cccbcb;
+}
+
+.jrnaver img{
+    margin-top: 4px;
+    width: 15%;
+}
+
+.icon {
+    margin-top: 4px;
+    width: 400px;
+}
+
+.happy img{
+    width: 10%;
+}
+
+.search-icon{
+    height: 100%;
+}
+
+
+/*-----------------------------------------------------*/
+/* 메인 nav                                             */
+/*-----------------------------------------------------*/
+
+
+.main-nav{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    box-shadow: 0px 2px 8px #dfdddd;
+    padding-top: 20px;
+}
+
+.main-nav2{
+    position: absolute;
+    width: 1000px;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.main-nav li {
+    float: left;
+    list-style-type: none;
+    margin-left: 15px;
+    display: list-item;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    font-weight: 700;
+}
+
+.fix-nav img {
+    position: absolute;
+    float: left;
+    margin-left: -8%;
+    margin-top: -3px;
+}
+
+.fix-nav a{
+    color: #04cf5c;
+    font-weight: 700;
+}
+
+.other{
+    float: right;
+    width: 150px;
+    margin-right: 50px;
+}
+
+.other span {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.filter{
+    float: right;
+    margin-right: 20%;
+    font-size: 12px;
+}
+
+.one {
+    font-size: 15px;
+    color:#bebebe;
+}
+
+.two{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+
+/*-----------------------------------------------------*/
+/* 메인 pannel                                         */
+/*-----------------------------------------------------*/
+
+
+.main-pannel{
+    float: right;
+    width: 70%;
+    height: 2700px;
+}
+
+.car {
+    width: 100%;
+}
+
+.news-bar{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #f7f9fa;
+    border: 1px solid #dadada;
+    font-size: 12px;
+    padding: 18px;
+}
+
+.news-bar-one {
+    float: left;
+}
+
+.news-bar-one span{
+    font-weight: 700;
+}
+
+.news-bar-one i {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.news-bar-two{
+    float: right;
+    font-weight: 700;
+}
+
+.news-bar-two span{
+    color: rgb(161, 157, 221);
+}
+
+.small-circle{
+    color: #dadada;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.news-stand {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.news-stand-one{
+    float: left;
+}
+
+.news-stand-one span{
+    font-weight: 700;
+}
+
+.news-stand-one-img{
+    position: absolute;
+    width: 30px;
+}
+
+.news-stand-one-title{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.news-stand-two{
+    float: right;
+    margin-top: 6px;
+}
+
+.news-stand-two span i{
+    color: rgb(161, 157, 221);
+}
+
+.news-stand-two i{
+    margin-left: 10px;
+    font-size: 17px;
+    color: #dadada;
+}
+
+.news-pannel{
+    width: 120%;
+}
+
+.daily-write{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.daily-write-one{
+    float: left;
+    font-size: 12px;
+}
+
+.daily-write-one span{
+    float: left;
+    font-weight: 700;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.daily-write-one p{
+    margin-top: 3px;
+    width: 350px;
+    color: #7e7d7d;
+}
+
+.daily-write-two{
+    float: right;
+    font-size: 12px;
+}
+
+.daily-write-two span{
+    font-weight: 700;
+}
+
+.daily-write-two i {
+    padding-right: 5px;
+    color: #7e7d7d;
+}
+
+.daily-write-main {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.box-img{
+    float: left;
+    width: 30%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box-img img{
+    width: 80%;
+}
+
+.box-info{
+    float: right;
+    width: 70%;
+    font-size: 15px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.box-info h5{
+   color: rgb(161, 157, 221);
+}
+
+.sub-title{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.box-info p{
+    font-size: 12px;
+}
+
+.news-media-figure img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.news-media-figure span {
+    font-weight: 700;
+}
+
+.news-media-figure{
+    margin-top: 15px;
+    float: left;
+    margin-right: 10px;
+    width: 30%;
+    font-size: 12px;
+    line-height: 160%;
+    margin-bottom: 15px;
+    margin-left: 2%;
+}
+
+/*-----------------------------------------------------*/
+/* 사이드 pannel                                        */
+/*-----------------------------------------------------*/
+
+.side-pannel{
+    width: 50%;
+    height: 1500px;
+}
+
+.login-pannel {
+    width: 100%;
+    height: 150px;
+    background-color: #f7f9fa;
+    border: 1px solid #dadada;
+    padding: 20px;
+    font-size: 12px;
+    color: rgb(148, 144, 144);
+}
+
+.lock{
+    float: left;
+}
+
+.user{
+    float: right;
+}
+
+.login-btn{
+    width: 100%;
+    margin-top:10px;
+    margin-bottom:20px;
+    height: 50px;
+    background-color: #04cf5c;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sub-pannel {
+    margin-top:10px;
+    width: 100%;
+    height: 50px;
+    background-color: #f7f9fa;
+    border: 1px solid #dadada;
+    padding: 18px;
+    font-size: 12px;
+}
+
+.smaile{
+    float: left;
+    font-size: 15px;
+}
+
+.smaile i{
+    color:#3987ff;
+}
+
+.sokcho {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.shopping-title{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.shopping-title li{
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.shopping-title-one{
+    float: left;
+}
+
+.shopping-title-list{
+    float: right;
+}
+
+.active {
+    color: #04cf5c;
+    border-bottom: 2px solid #04cf5c;
+}
+
+.shopping-subtitle{
+    width: 100%;
+    height: 80px;
+    background-color: #f7f9fa;
+    border: 1px solid #dadada;
+    padding: 23px 24px 23px 30px;
+}
+
+.shopping-subtitle li {
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 160%;
+
+}
+
+.shopping-subtitle a{
+    text-decoration: none;
+    color : #000;
+}
+
+.shopping-main{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid #dadada;
+}
+
+.shopping-footer{
+    width: 100%;
+    height: 160px;
+    border: 1px solid #dadada;
+}
+
+.shopping-footer li {
+    color: #04cf5c;
+    list-style-type: disc;
+}
+
+.shopping-footer li span{
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 200%;
+}
+
+.shopping-main img {
+    width: 100%;
+}
+
+.shopping-footer h5{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.shopping-footer-list{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+hr{
+    border: 0; 
+    border-top: 1px solid rgb(228, 227, 227);
+    width: 95%;
+    margin-left: 3%;
+}
+
+/*-----------------------------------------------------*/
+/* footer                                        */
+/*-----------------------------------------------------*/
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #f7f9fa;
+    border-top: 1px solid #dadada;
+
+}
+
+.footerfooter{
+    position: absolute; 
+    margin-left: 20%; 
+    margin-top: 20%;
+}
+
+.footer-media-figure{
+    margin-top: 15px;
+    float: left;
+    margin-right: 10px;
+    width: 30%;
+    font-size: 12px;
+    line-height: 160%;
+    margin-left: 2%;
+}
+
+.footer-media-img{
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-media-img img{
+    width: 100%;
+}
+
+.footer-media-info{
+    float: right;
+    width: 45%;
+    font-size: 12px;
+    line-height: 160%;
+    margin-bottom: 15px;
+}
+
+.footer-title{
+    color: #04cf5c;
+}
+
+.footer-hr{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.wish{
+    float: left;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.wish span {
+    font-weight: 700;
+}
+
+.total{
+    float: right;
+    font-size: 12px;
+}
+
+.total i {
+    font-weight: 700;
+}
+
+.wish2{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 160%;
+}
+
+.wish2 span {
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.footer-whale{
+    float: right;
+}
+
+.small-list{
+    color: #dfe1e2;
+    margin-left: 10px;
+}
+
+.wish3{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
